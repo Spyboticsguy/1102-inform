@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x7a84c3a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x79fe64c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7ae298e0" />
-  <item nodeId="node-0x7a84c3a0">
+  <activeNode nodeId="node-0x79fe64c0" />
+  <item nodeId="node-0x79fe64c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,68 +11,27 @@ Time
 An Interactive Fiction by Tristen Allen
 Release 1 / Serial number 151102 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-Example Location
+Jones&apos; Memorial Baptist
+Your wife is dead. This is her funeral.
+
+You ponder when you will go.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">NO</temporary>
-    <children>
-      <child nodeId="node-0x7af6a8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7af6a8a0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Example Location
+    <commentary xml:space="preserve">
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae1e680" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae1e680">
-    <command xml:space="preserve">go</command>
-    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x7af53e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x7af53e30">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+Time
+An Interactive Fiction by Tristen Allen
+Release 1 / Serial number 151102 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae2d2c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae2d2c0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Example Location
+Jones&apos; Memorial Baptist
+Your wife is dead. This is her funeral.
 
-&gt;</result>
+You ponder when you will go.
+
+&gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae298e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae298e0">
-    <command xml:space="preserve">remember</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="2">NO</temporary>
   </item>
 </Skein>
