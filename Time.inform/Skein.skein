@@ -1,25 +1,20 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x6b42e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x4e2580" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6b42e0" />
-  <item nodeId="node-0x6b42e0">
+  <activeNode nodeId="node-0xb9f6630" />
+  <item nodeId="node-0x4e2580">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-
-*** Error on file &apos;mem&apos;: tried to open a file but failed ***
-
-*** Run-time problem P48: Error handling external file.
-
 Time
 An Interactive Fiction by Tristen Allen
-Release 1 / Serial number 151104 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 151109 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Jones&apos; Memorial Baptist
-Your wife is dead. This is her funeral.
+There is a crowd gathered here, mourning the loss of your wife.
 
-You ponder when you will go.
+There is a casket at the front of the room.
 
 &gt;</result>
     <commentary xml:space="preserve">
@@ -27,16 +22,293 @@ You ponder when you will go.
 
 Time
 An Interactive Fiction by Tristen Allen
-Release 1 / Serial number 151102 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 151109 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Jones&apos; Memorial Baptist
-Your wife is dead. This is her funeral.
+There is a crowd gathered here, mourning the loss of your wife.
 
-You ponder when you will go.
+There is a casket at the front of the room.
 
 &gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="2">NO</temporary>
+    <temporary score="33">NO</temporary>
+    <children>
+      <child nodeId="node-0xb9565e0" />
+      <child nodeId="node-0xb97d570" />
+      <child nodeId="node-0xb90a6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb90a6b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+&gt;</result>
+    <commentary xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="33">NO</temporary>
+    <children>
+      <child nodeId="node-0x9057fd0" />
+      <child nodeId="node-0x902ea30" />
+    </children>
+  </item>
+  <item nodeId="node-0x902ea30">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket is your wife.
+
+&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket is your wife.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x9071990" />
+    </children>
+  </item>
+  <item nodeId="node-0x9071990">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yorself to look at her.
+
+&gt;</result>
+    <commentary xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite look at her.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0xb99da90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb99da90">
+    <command xml:space="preserve">take wife</command>
+    <result xml:space="preserve">It&apos;s far too late to hold her.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9a4400" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9a4400">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x82b07b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82b07b0">
+    <command xml:space="preserve">break casket</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9ed560" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9ed560">
+    <command xml:space="preserve">attack casket</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd41f6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd41f6a0">
+    <command xml:space="preserve">attack wife</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x9057fd0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f8e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f8e80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9df5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9df5d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xd42b340" />
+    </children>
+  </item>
+  <item nodeId="node-0xd42b340">
+    <command xml:space="preserve">ew</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0x907e210" />
+    </children>
+  </item>
+  <item nodeId="node-0x907e210">
+    <command xml:space="preserve">remember</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0x82f6230" />
+    </children>
+  </item>
+  <item nodeId="node-0x82f6230">
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">Save failed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xd454e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xd454e70">
+    <command xml:space="preserve">load</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9f6630" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9f6630">
+    <command xml:space="preserve">restore</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+  </item>
+  <item nodeId="node-0xb97d570">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">You see nothing special about your wife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x829d3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x829d3d0">
+    <command xml:space="preserve">take wife</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xb991480" />
+    </children>
+  </item>
+  <item nodeId="node-0xb991480">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xb977020" />
+    </children>
+  </item>
+  <item nodeId="node-0xb977020">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">In the casket is your wife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0xb9565e0">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">In the casket is your wife.
+
+&gt;</result>
+    <commentary xml:space="preserve">In the casket is your wife.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0xb91fc60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb91fc60">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">You see nothing special about your wife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">NO</temporary>
   </item>
 </Skein>
