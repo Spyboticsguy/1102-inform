@@ -1,50 +1,572 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x4e2580" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5e8460" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xb9f6630" />
-  <item nodeId="node-0x4e2580">
+  <activeNode nodeId="node-0x8677500" />
+  <item nodeId="node-0x5e8460">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
+There is a small boquet of flowers on top of the casket.
+There is something oddly familiar about this scenario.
+
 Time
-An Interactive Fiction by Tristen Allen
-Release 1 / Serial number 151109 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by a bunch of people
+Release 1 / Serial number 151110 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
 
 There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+There is something different about the casket.
 
 &gt;</result>
     <commentary xml:space="preserve">
 
 
 Time
-An Interactive Fiction by Tristen Allen
-Release 1 / Serial number 151109 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by a bunch of people
+Release 1 / Serial number 151110 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
 
 There is a casket at the front of the room.
 
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
 &gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="33">NO</temporary>
+    <temporary score="10">NO</temporary>
     <children>
-      <child nodeId="node-0xb9565e0" />
-      <child nodeId="node-0xb97d570" />
-      <child nodeId="node-0xb90a6b0" />
+      <child nodeId="node-0x5ea740" />
+      <child nodeId="node-0x5ea2e0" />
+      <child nodeId="node-0x5ea190" />
+      <child nodeId="node-0x5e9fd0" />
+      <child nodeId="node-0x5e95b0" />
+      <child nodeId="node-0x5e8e80" />
+      <child nodeId="node-0x5e90e0" />
+      <child nodeId="node-0x5e8500" />
     </children>
   </item>
-  <item nodeId="node-0xb90a6b0">
+  <item nodeId="node-0x5e8500">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8a90" />
+      <child nodeId="node-0x5e8da0" />
+      <child nodeId="node-0x8264650" />
+      <child nodeId="node-0x5e8850" />
+      <child nodeId="node-0x5e8570" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8570">
+    <command xml:space="preserve">go in car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e85e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e85e0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist (in your car)
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8690" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8690">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e86f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e86f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8760" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8760">
+    <command xml:space="preserve">get out</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8850">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8d30" />
+      <child nodeId="node-0x5e88a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e88a0">
+    <command xml:space="preserve">get in Camaro</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e88f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e88f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8960" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8960">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist (in your car)
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e89d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e89d0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8b00">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e87f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e87f0">
+    <command xml:space="preserve">get out of car</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8b70">
+    <command xml:space="preserve">leave car</command>
+    <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8be0">
+    <command xml:space="preserve">exit car</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8c50">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your car.
+
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8cc0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8d30">
+    <command xml:space="preserve">take Camaro</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x8264650">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x82cc450" />
+    </children>
+  </item>
+  <item nodeId="node-0x82cc450">
+    <command xml:space="preserve">rest</command>
+    <result xml:space="preserve">Your mind begins to drift back to memories of you and your wife.
+There seems to be a lack of content here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x82acbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82acbb0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your car.
+
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x86b4500" />
+    </children>
+  </item>
+  <item nodeId="node-0x86b4500">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x8677500" />
+    </children>
+  </item>
+  <item nodeId="node-0x8677500">
+    <command xml:space="preserve">y</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8da0">
+    <command xml:space="preserve">take Camaro</command>
+    <result xml:space="preserve">That seems like it should be the other way around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8a40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8a90">
+    <command xml:space="preserve">enter car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8f90">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You have nowhere to go. You could walk back inside, or maybe REST a while.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9000" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9000">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9070" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9070">
+    <command xml:space="preserve">rest</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e90e0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9150" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9150">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e91c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e91c0">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9230" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9230">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e92a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e92a0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist (in your car)
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9310" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9310">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your car.
+
+Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+Your Camaro is nearby.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9380" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9380">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e93f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e93f0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e8e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e8e10">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your car.
+
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8e80">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
 
 There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+This seems oddly familiar.
+
+There is a small boquet of flowers on top of the casket.
 
 &gt;</result>
     <commentary xml:space="preserve">Jones&apos; Memorial Baptist
@@ -52,16 +574,205 @@ There is a crowd gathered here, mourning the loss of your wife.
 
 There is a casket at the front of the room.
 
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
 &gt;</commentary>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="33">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="43">NO</temporary>
     <children>
-      <child nodeId="node-0x9057fd0" />
-      <child nodeId="node-0x902ea30" />
+      <child nodeId="node-0x5e8ef0" />
+      <child nodeId="node-0x5e9940" />
+      <child nodeId="node-0x5e94d0" />
     </children>
   </item>
-  <item nodeId="node-0x902ea30">
+  <item nodeId="node-0x5e94d0">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9540" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9540">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e9940">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e99b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e99b0">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9a20">
+    <command xml:space="preserve">rest</command>
+    <result xml:space="preserve">Your mind begins to drift back to memories of you and your wife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9a90">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You have nowhere to go. You could walk back inside, or maybe REST a while.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9b00">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your car.
+
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9b70">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+This seems oddly familiar.
+
+There is a small boquet of flowers on top of the casket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9be0">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket are a boquet and your wife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9c50">
+    <command xml:space="preserve">take boquet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9cc0">
+    <command xml:space="preserve">look at boquet</command>
+    <result xml:space="preserve">From your first date.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9d30">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9da0">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9460" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9460">
+    <command xml:space="preserve">yes</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e8ef0">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">Orante, brown, and very expensive.
 
@@ -75,234 +786,201 @@ In the casket is your wife.
 &gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="24">NO</temporary>
+    <temporary score="48">NO</temporary>
     <children>
-      <child nodeId="node-0x9071990" />
+      <child nodeId="node-0x5e96a0" />
     </children>
   </item>
-  <item nodeId="node-0x9071990">
+  <item nodeId="node-0x5e96a0">
     <command xml:space="preserve">look at wife</command>
-    <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yorself to look at her.
+    <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
 
 &gt;</result>
-    <commentary xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite look at her.
+    <commentary xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
 
 &gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="47">NO</temporary>
     <children>
-      <child nodeId="node-0xb99da90" />
+      <child nodeId="node-0x5e9710" />
     </children>
   </item>
-  <item nodeId="node-0xb99da90">
+  <item nodeId="node-0x5e9710">
     <command xml:space="preserve">take wife</command>
     <result xml:space="preserve">It&apos;s far too late to hold her.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xb9a4400" />
-    </children>
-  </item>
-  <item nodeId="node-0xb9a4400">
-    <command xml:space="preserve">take casket</command>
-    <result xml:space="preserve">Later.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0x82b07b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x82b07b0">
-    <command xml:space="preserve">break casket</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xb9ed560" />
-    </children>
-  </item>
-  <item nodeId="node-0xb9ed560">
-    <command xml:space="preserve">attack casket</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xd41f6a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd41f6a0">
-    <command xml:space="preserve">attack wife</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-  </item>
-  <item nodeId="node-0x9057fd0">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0x82f8e80" />
-    </children>
-  </item>
-  <item nodeId="node-0x82f8e80">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0xb9df5d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb9df5d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0xd42b340" />
-    </children>
-  </item>
-  <item nodeId="node-0xd42b340">
-    <command xml:space="preserve">ew</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0x907e210" />
-    </children>
-  </item>
-  <item nodeId="node-0x907e210">
-    <command xml:space="preserve">remember</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0x82f6230" />
-    </children>
-  </item>
-  <item nodeId="node-0x82f6230">
-    <command xml:space="preserve">save</command>
-    <result xml:space="preserve">Save failed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0xd454e70" />
-    </children>
-  </item>
-  <item nodeId="node-0xd454e70">
-    <command xml:space="preserve">load</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="33">YES</temporary>
-    <children>
-      <child nodeId="node-0xb9f6630" />
-    </children>
-  </item>
-  <item nodeId="node-0xb9f6630">
-    <command xml:space="preserve">restore</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-  </item>
-  <item nodeId="node-0xb97d570">
-    <command xml:space="preserve">look at wife</command>
-    <result xml:space="preserve">You see nothing special about your wife.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x829d3d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x829d3d0">
-    <command xml:space="preserve">take wife</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0xb991480" />
-    </children>
-  </item>
-  <item nodeId="node-0xb991480">
-    <command xml:space="preserve">take casket</command>
-    <result xml:space="preserve">Later.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0xb977020" />
-    </children>
-  </item>
-  <item nodeId="node-0xb977020">
-    <command xml:space="preserve">look at casket</command>
-    <result xml:space="preserve">In the casket is your wife.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0xb9565e0">
-    <command xml:space="preserve">look at casket</command>
-    <result xml:space="preserve">In the casket is your wife.
-
-&gt;</result>
-    <commentary xml:space="preserve">In the casket is your wife.
+    <commentary xml:space="preserve">It&apos;s far too late to hold her.
 
 &gt;</commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">NO</temporary>
+    <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0xb91fc60" />
+      <child nodeId="node-0x5e9780" />
     </children>
   </item>
-  <item nodeId="node-0xb91fc60">
+  <item nodeId="node-0x5e9780">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.
+
+&gt;</result>
+    <commentary xml:space="preserve">Later.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e97f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e97f0">
+    <command xml:space="preserve">break casket</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e9860" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9860">
+    <command xml:space="preserve">attack casket</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e98d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e98d0">
+    <command xml:space="preserve">attack wife</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">NO</temporary>
+  </item>
+  <item nodeId="node-0x5e95b0">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket are a boquet and your wife.
+
+&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket is your wife.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">NO</temporary>
+    <children>
+      <child nodeId="node-0x824d400" />
+      <child nodeId="node-0x5e9f60" />
+      <child nodeId="node-0x5e9620" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9620">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <commentary xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e9e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9e10">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <commentary xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e9e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9e80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <commentary xml:space="preserve">Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">NO</temporary>
+    <children>
+      <child nodeId="node-0x5e9ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9ef0">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">NO</temporary>
+  </item>
+  <item nodeId="node-0x5e9f60">
     <command xml:space="preserve">look at wife</command>
     <result xml:space="preserve">You see nothing special about your wife.
 
@@ -310,5 +988,312 @@ In the casket is your wife.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">NO</temporary>
+  </item>
+  <item nodeId="node-0x824d400">
+    <command xml:space="preserve">look at boquet</command>
+    <result xml:space="preserve">From your first date.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x8280d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x8280d90">
+    <command xml:space="preserve">take boquet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e9fd0">
+    <command xml:space="preserve">rest</command>
+    <result xml:space="preserve">You really should not be sleeping here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea040" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea040">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea0b0">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea120" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea120">
+    <command xml:space="preserve">rest</command>
+    <result xml:space="preserve">Your mind begins to drift back to memories of you and your wife.
+
+This seems oddly familiar.
+
+There is a small boquet of flowers on top of the casket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0x5ea190">
+    <command xml:space="preserve">loo</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea200" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea200">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+This seems oddly familiar.
+
+There is a small boquet of flowers on top of the casket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea270" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea270">
+    <command xml:space="preserve">look</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x5ea2e0">
+    <command xml:space="preserve">take boquet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea350" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea350">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones&apos; Memorial Baptist
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea3c0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+Your Camaro is nearby.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea430" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea430">
+    <command xml:space="preserve">take car</command>
+    <result xml:space="preserve">That seems like it should be the other way around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea4a0">
+    <command xml:space="preserve">go to car</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea510" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea510">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into your car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea580" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea580">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea5f0">
+    <command xml:space="preserve">drive</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea660" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea660">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">
+Jones&apos; Memorial Baptist (in your car)
+There is a crowd gathered here, mourning the loss of your wife.
+
+There is a casket at the front of the room.
+
+Outside is the parking lot, with your car and some well-deserved tranquility.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ea6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea6d0">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">
+Outdoors (in your car)
+It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+  </item>
+  <item nodeId="node-0x5ea740">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
+
+&gt;</result>
+    <commentary xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5ea7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea7b0">
+    <command xml:space="preserve">take wife</command>
+    <result xml:space="preserve">It&apos;s far too late to hold her.
+
+&gt;</result>
+    <commentary xml:space="preserve">It&apos;s far too late to hold her.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5ea820" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea820">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.
+
+&gt;</result>
+    <commentary xml:space="preserve">Later.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x5ea890" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ea890">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.
+
+In the casket is your wife.
+
+&gt;</result>
+    <commentary xml:space="preserve">In the casket is your wife.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">NO</temporary>
   </item>
 </Skein>
