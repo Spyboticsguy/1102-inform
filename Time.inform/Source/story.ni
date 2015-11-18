@@ -1,5 +1,7 @@
 "Interperter" by a bunch of people
 
+Release along with an interpreter.
+
 Chapter 0 - Unsheath
 
 Section 1 - REMEMBER
@@ -9,7 +11,7 @@ Consequence	Value
 "loops"	0
 "completed"	0
 
-The File of Memory is called "development".
+The File of Memory is called "dev2".
 
 When play begins:
 	if File of Memory exists:
@@ -46,7 +48,7 @@ Understand "xyzzy" as a mistake ("Incredible! If you were magic, maybe that woul
 Section 3 - Values
 
 A wife is a kind of person.
-
+A road is a kind of room.
 Clothing is a kind of thing. Clothing is usually wearable.
 
 Section 4 - New Actions
@@ -55,7 +57,9 @@ Resting is an action applying to nothing.
 Understand "rest" as resting.
 
 Check resting:
-	if the player is not in your car:
+	if the car is in a road and the player is in the car:
+		say "What do you think you're doing!?" instead;
+	if the player is not in the car:
 		say "You really should not be sleeping here." instead.
 
 Carry out resting:
@@ -71,9 +75,11 @@ Carry out resting:
 		Now the value corresponding to a consequence of "loops" in the Table of Memory is the value corresponding to a consequence of "loops" in the Table of Memory plus 1;
 		end the story saying "That was a chaotic morning. Was this really the only memory you had of your wife? Perhaps you should try again.";
 	otherwise:
-		Now the value corresponding to a consequence of "loops" in the Table of Memory is the value corresponding to a consequence of "loops" in the Table of Memory plus 1;
-		end the story saying "You have reached the end of the demonstration! There really is nothing more here - although there will be!"
-		
+		if the value corresponding to a consequence of "loops" in the Table of Memory is 1:
+			now the player is in The Driveway;
+			now the car is in The Driveway;
+		otherwise:
+			now the value corresponding to a consequence of "loops" in the Table of Memory is the value corresponding to a consequence of "loops" in the Table of Memory plus 1.
 
 Chapter 1 - Sharpen
 
@@ -119,7 +125,7 @@ After looking in Jones' Memorial Baptist:
 		say "You feel an unfamiliar pressure around your wrist.".
 
 Before examining the watch:
-	If we have not examined the watch and the player is in the beginning:
+	If we have not examined the watch and the player is in the beginning and the value corresponding to a consequence of "loops" in the Table of Memory is 1:
 		say "You know you didn't have this around your wrist when you walked in. What's going on?"
 
 Instead of asking the mysterious figure about anything:
@@ -154,10 +160,14 @@ Instead of taking your car:
 Understand "Camaro" as your car.
 
 Instead of going by a vehicle:
-	If the player is in your car:
+	If the player is in your car and the car is in Outdoors:
+		say "Before you get going, maybe you should take a quick rest.";
+	otherwise if the player is in the car and the car is in the Garage:
 		say "Before you get going, maybe you should take a quick rest.";
 	otherwise if the player is in your bed:
-		say "Unless you plan on pushing your bed around, you'll ned to GET OUT of bed first."
+		say "Unless you plan on pushing your bed around, you'll ned to GET OUT of bed first.";
+	otherwise:
+		continue the action.
 
 Chapter 2 - The First Time
 
@@ -214,6 +224,28 @@ After examining your watch for the first time:
 		now the description of your wife is "Furious. Still lovely, in a very frightening, wrathful way.";
 		now the initial appearance of your wife is "Your wife is here, but isn't looking you in the eyes."
 
+Instead of going down:
+	If the player is in the bedroom:
+		If the player is not wearing a suit:
+			say "You really shouldn't parade about in your birthday suit.";
+		otherwise if the player is not wearing a watch:
+			say "Do you want to be late again? You might need your watch.";
+		otherwise:
+			continue the action;
+	otherwise:
+		continue the action.
+
+Section 2 - Kitchen
+
+The Kitchen is a room below the bedroom. "The kitchen is spacious, but you really don't have the time to prepare a meal.[line break]Outside of the kitchen is the garage, which has both your car and that of your wife."
+Up from Kitchen is the bedroom.
+The Kitchen is in the Morning.
+Outside of the kitchen is the garage.
+
+There is a box of cereal in the kitchen. "There is a box of off-brand cereal here."
+The description of the cereal is "This will have to do."
+The box of cereal is edible.
+
 Instead of asking your wife about anything:
 	If the player is in the kitchen:
 		say "She's not in the mood.";
@@ -232,38 +264,30 @@ Instead of telling your wife about anything:
 	else:
 		continue the action.
 
-Instead of going down:
-	If the player is in the bedroom:
-		If the player is not wearing a suit:
-			say "You really shouldn't parade about in your birthday suit.";
-		otherwise if the player is not wearing a watch:
-			say "Do you want to be late again? You might need your watch.";
-		otherwise:
-			continue the action;
-	otherwise:
-		continue the action.
-
-Section 2 - Kitchen
-
-The Kitchen is a room below the bedroom. "The kitchen is spacious, but you really don't have the time to prepare a meal.[line break]Outside of the kitchen is the garage, which has both your car and that of your wife's."
-Up from Kitchen is the bedroom.
-The Kitchen is in the Morning.
-Outside of the kitchen is the garage.
-
-There is a box of cereal in the kitchen. "There is a box of off-brand cereal here."
-The description of the cereal is "You'll have to eat this at work."
-
-Instead of going while the player is in the kitchen:
+Before going while the player is in the kitchen:
 	If your wife is in the kitchen:
-		say "You notice your wife rushing to get the kids ready as you leave the kitchen.[line break]She yells:[paragraph break]'I can't believe you forgot to set the alarm even after I reminded you last night!'[paragraph break]You blow her off, reminding her that you're late to work. You suggest that, perhaps, if she had set her own alarm, this wouldn't be an issue.[paragraph break]She doesn't seem to like that, and coldly ignores you as she goes to the garage.";
+		say "You notice your wife rushing to get the kids ready as you prepare to leave the kitchen.[line break]She yells:[paragraph break]'I can't believe you forgot to set the alarm even after I reminded you last night!'[paragraph break]You blow her off, reminding her that you're late to work. You suggest that, perhaps, if she had set her own alarm, this wouldn't be an issue.[paragraph break]She doesn't seem to like that, and coldly ignores you as she goes to the garage.";
 		now your wife is nowhere;
 		now your car is in the garage;
 		now the description of your car is "You really are very tired - a quick nap in your car wouldn't hurt. Just be sure to set the alarm this time.";
-		continue the action;
-	otherwise:
-		continue the action.
 
 Section 3 - Garage
 
-The garage is a room. "Your wife's car is gone, leaving only your sleek blue Camaro."
+The Garage is a room. "Your wife's car is gone, leaving only your sleek blue Camaro."
 The garage is in the morning.
+
+Chapter 3 - Work
+
+Work is a region.
+
+Section 1 - Driveway
+
+The Driveway is a road in Work. "Your driveway is immediately outside your garage. You don't really have time to go back inside.[paragraph break]To the north is the highway that you use to get to work everyday."
+
+Instead of going north while the player is in the driveway:
+	say "You should get in your car before going down the highway, friend."
+
+Section 2 - Highway
+
+The Highway is a road in Work.
+The highway is north of the driveway.
