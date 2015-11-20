@@ -1,8 +1,12 @@
-"Interperter" by a bunch of people
+"In Memoriam" by Loquacious Libriform Computing
 
 Release along with an interpreter.
 
+[Are you here to save her?]
+
 Chapter 0 - Unsheath
+
+[Well, good luck.]
 
 Section 1 - REMEMBER
 
@@ -11,7 +15,15 @@ Consequence	Value
 "loops"	0
 "completed"	0
 
-The File of Memory is called "dev2".
+Table of Informed Replies
+Topic	Response
+"your wife"	"I'm not responsible for how she dies, if that's what you're wondering."
+"himself"	"This is me. I'm talking to you. You don't need to know anything else."
+"help"	"You won't get any from me."
+
+[We didn't want you to have your happy ending.]
+
+The File of Memory is called "dev".
 
 When play begins:
 	if File of Memory exists:
@@ -24,9 +36,13 @@ Check quitting the game:
 
 When play ends:
 	write File of Memory from the Table of Memory;
-	
+
+Check restarting the game:
+	write File of Memory from the Table of Memory;
 
 Section 2 - Basic Rules
+
+[But that's not really up to us now, is it?]
 
 Understand "get out of [anything]" as a mistake ("Just GET OUT without saying what you want to exit.").
 Understand "exit [anything]" as a mistake ("Just EXIT without saying what you want to exit.").
@@ -47,11 +63,15 @@ Understand "xyzzy" as a mistake ("Incredible! If you were magic, maybe that woul
 
 Section 3 - Values
 
+[Well, in a manner of speaking, it is.]
+
 A wife is a kind of person.
 A road is a kind of room.
 Clothing is a kind of thing. Clothing is usually wearable.
 
 Section 4 - New Actions
+
+[We could have just left out the mysterious figure, you know.]
 
 Resting is an action applying to nothing.
 Understand "rest" as resting.
@@ -76,18 +96,20 @@ Carry out resting:
 		end the story saying "That was a chaotic morning. Was this really the only memory you had of your wife? Perhaps you should try again.";
 	otherwise:
 		if the value corresponding to a consequence of "loops" in the Table of Memory is 1:
-			now the player is in The Driveway;
 			now the car is in The Driveway;
-		otherwise:
-			now the value corresponding to a consequence of "loops" in the Table of Memory is the value corresponding to a consequence of "loops" in the Table of Memory plus 1.
+			now the player is in The Driveway;
 
 Chapter 1 - Sharpen
+
+[The only reason you're here is because we wanted you to be.]
 
 The Beginning is a region.
 
 Section 1 - Jones' Memorial
 
-Jones' Memorial Baptist is a room in The Beginning. "There is a crowd gathered here, mourning the loss of your wife."
+[You don't have control.]
+
+Jones' Memorial Baptist is a room in The Beginning. "There is a crowd gathered here, mourning the loss of a loved one."
 
 Outside is Outdoors.
 
@@ -98,8 +120,8 @@ A suit is clothing.
 The description of the suit is "Your suit is black and sleek, with an off-white kerchief in the pocket of the jacket."
 The player wears the suit.
 
-[A boquet is nowhere.
-The description of the boquet is "From your first date."]
+A phone is a thing.
+The description of the phone is "No unread messages. Has your wife's phone number on it."
 
 A mysterious figure is a person who is nowhere.
 The description of the mysterious figure is "You can't quite look at him, but he's staring at you."
@@ -111,6 +133,9 @@ When play begins:
 			Now the description of the watch is "Reads [time of day].";
 		If the value corresponding to a consequence of "loops" in the Table of Memory is 1:
 			Now the mysterious figure is in Jones' Memorial Baptist;
+		If the value corresponding to a consequence of "loops" in the Table of Memory is 2:
+			Now the player has the phone;
+			Now the description of Jones' Memorial Baptist is "There is a crowd gathered here, mourning the loss of your wife."
 
 
 Inside the casket is the deceased woman. The casket and the deceased woman are fixed in place.
@@ -121,8 +146,10 @@ Instead of taking the deceased woman, say "It's far too late to hold her."
 
 After looking in Jones' Memorial Baptist:
 	say "Outside is the parking lot, with your car and some well-deserved tranquility.";
-	if the player is wearing the watch:
-		say "You feel an unfamiliar pressure around your wrist.".
+	if the player is wearing the watch and the value corresponding to a consequence of "loops" in the Table of Memory is 1:
+		say "You feel an unfamiliar pressure around your wrist.";
+	if the player has the phone and the value corresponding to a consequence of "loops" in the Table of Memory is 2:
+		say "You feel a familiar vibration in your pocket.";
 
 Before examining the watch:
 	If we have not examined the watch and the player is in the beginning and the value corresponding to a consequence of "loops" in the Table of Memory is 1:
@@ -151,10 +178,12 @@ Instead of telling the mysterious figure about anything:
 
 Section 2 - Outside
 
+[Only the illusion of it.]
+
 Outdoors is a room in The Beginning. "It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door."
 
 Your car is a vehicle. It is here. "Your Camaro is nearby."
-The description of your car is "Looks like a good place to get a quick break from today's events."
+The description of your car is "Looks like a good place to get a quick break from today's events. You might try taking a quick REST here."
 Instead of taking your car:
 	say "That seems like it should be the other way around."
 Understand "Camaro" as your car.
@@ -169,7 +198,13 @@ Instead of going by a vehicle:
 	otherwise:
 		continue the action.
 
+After entering the car:
+	try examining the car;
+	say "(You are now in the car)."
+
 Chapter 2 - The First Time
+
+[So, if you want to save her, be our guest.]
 
 The Morning is a region.
 
@@ -237,6 +272,8 @@ Instead of going down:
 
 Section 2 - Kitchen
 
+[Just know it's not our fault if you're not satisfied.]
+
 The Kitchen is a room below the bedroom. "The kitchen is spacious, but you really don't have the time to prepare a meal.[line break]Outside of the kitchen is the garage, which has both your car and that of your wife."
 Up from Kitchen is the bedroom.
 The Kitchen is in the Morning.
@@ -273,14 +310,20 @@ Before going while the player is in the kitchen:
 
 Section 3 - Garage
 
+[But I suppose that's the point, isn't it?]
+
 The Garage is a room. "Your wife's car is gone, leaving only your sleek blue Camaro."
 The garage is in the morning.
 
 Chapter 3 - Work
 
+[If you change the story, you're just making tangible changes that reflect your own interpertation, right?]
+
 Work is a region.
 
 Section 1 - Driveway
+
+[This stopped being our story as soon as we gave it to you.]
 
 The Driveway is a road in Work. "Your driveway is immediately outside your garage. You don't really have time to go back inside.[paragraph break]To the north is the highway that you use to get to work everyday."
 
@@ -289,5 +332,39 @@ Instead of going north while the player is in the driveway:
 
 Section 2 - Highway
 
-The Highway is a road in Work.
+[So, if you've decided to change it, we won't (and can't) stop you.]
+
+The Highway is a road in Work. "Full of cars. Calming, for once. North of here is your workplace; south is your driveway."
 The highway is north of the driveway.
+
+Section 3 - Work
+
+[This is your happy ending, by the way.]
+
+The Workplace is a room in Work. "Here, you serve as a consultant for many top businesses in the area. You make enough to allow your wife to stay at home, but she has always mentioned wanting to go back to college for another degree."
+The workplace is north of the highway.
+
+After going to the workplace:
+	if the workplace was not visited:
+		now the mysterious figure is in the workplace;
+		try looking;
+		say "Your boss runs up to you as you pull into your parking space, a look of blank shock on his face.[line break]You stare at him, confused, and open the door to step out and get your mind off of the argument you had this morning.[paragraph break]'Son, why in God's name are you here? Check your phone!'[paragraph break]You pre-emptively apologize, remembering that you left your phone in your cubicle, and inform your boss as such.[paragraph break]'Then I'm sorry to have to be the one to tell you this.'[line break]He pauses, uneasy at the message he is now being forced to deliver.[paragraph break]'Your wife's dead, son.'";
+		say "Your boss walks inside after giving you the weekend off. He glances sadly at you before walking back inside.[line break]You begin to breathe rapidly. Thoughts flash through your mind. Why did you have to argue with your wife? Why does this seem so familiar? Why is he here?".
+
+After asking the mysterious figure about a topic listed in the Table of Informed Replies, say "[response entry]".
+
+After asking the mysterious figure about something for the first time:
+	if the player is in the workplace or the player is in the car:
+		if the car is in the workplace, say "You could ask him about YOUR WIFE, HIMSELF, HELP, or THE STORY."
+
+After asking the mysterious figure about "the story":
+	say "Very astute. Yes, you're in one. And it's not about you, no. But it is about YOU.";
+	say "See you later. Or earlier. Take your pick; doesn't matter to me.";
+	say "Here's your phone. Hold on to it. You might want it.";
+	say "(You are now carrying the phone.)";
+	now the player has the phone;
+	Now the value corresponding to a consequence of "loops" in the Table of Memory is 2;
+	now the mysterious figure is nowhere;
+	end the story saying "I'm sorry you had to find out this way. But, as you might suspect, I really have no control over it. You could try and go back, I suppose, but you might not find anything else worthwhile."
+
+[Have fun, player.]
