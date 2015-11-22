@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02B2E700" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02B31880"/>
+  <item nodeId="node-0x02B2E700">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">In Memoriam&#x000A;An Interactive Fiction by Loquacious Libriform Computing&#x000A;Release 1 / Serial number 151121 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;You can also see a plaque here.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">In Memoriam&#x000A;An Interactive Fiction by Loquacious Libriform Computing&#x000A;Release 1 / Serial number 151121 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;You can also see a plaque here.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">NO</temporary>
+    <children>
+      <child nodeId="node-0x027B3C70"/>
+      <child nodeId="node-0x02B45B68"/>
+      <child nodeId="node-0x02B315F8"/>
+      <child nodeId="node-0x02B31B20"/>
+      <child nodeId="node-0x02B33B18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027B3C70">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x027B3DA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027B3DA0">
+    <command xml:space="preserve">take wife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x027B3E10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027B3E10">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Later.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x027B3E80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027B3E80">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">NO</temporary>
+    <children>
+      <child nodeId="node-0x027B3EF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027B3EF0">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B45AF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B45AF8">
+    <command xml:space="preserve">look at deceased</command>
+    <result xml:space="preserve">Beautiful, you're sure. But you can't quite bring yourself to look at her.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Beautiful, you're sure. But you can't quite bring yourself to look at her.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+  <item nodeId="node-0x02B45B68">
+    <command xml:space="preserve">ask mysterious figure</command>
+    <result xml:space="preserve">What do you want to ask the mysterious figure for?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">What do you want to ask the mysterious figure for?&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B45CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B45CB8">
+    <command xml:space="preserve">a casket</command>
+    <result xml:space="preserve">I don't know who "mysterious figure" is.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">I don't know who "mysterious figure" is.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B45F50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B45F50">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;There is something different about the casket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B311F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B311F8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;There is something different about the casket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">NO</temporary>
+  </item>
+  <item nodeId="node-0x02B315F8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;You can also see a plaque here.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;You can also see a plaque here.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31880">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="145">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31EA0">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">Beautiful, you're sure. But you can't quite bring yourself to look at her.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Beautiful, you're sure. But you can't quite bring yourself to look at her.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31730">
+    <command xml:space="preserve">take wife</command>
+    <result xml:space="preserve">It's far too late to hold her.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It's far too late to hold her.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31DC0">
+    <command xml:space="preserve">take casket</command>
+    <result xml:space="preserve">Later.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Later.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31C00">
+    <command xml:space="preserve">break casket</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B319D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B319D0">
+    <command xml:space="preserve">attack casket</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B317A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B317A0">
+    <command xml:space="preserve">attack wife</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">NO</temporary>
+  </item>
+  <item nodeId="node-0x02B31B20">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is a deceased woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Orante, brown, and very expensive.&#x000A;&#x000A;In the casket is your wife.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="188">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31810"/>
+      <child nodeId="node-0x02B31CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31810">
+    <command xml:space="preserve">look at wife</command>
+    <result xml:space="preserve">You see nothing special about your wife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">NO</temporary>
+  </item>
+  <item nodeId="node-0x02B31CE0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Jones' Memorial Baptist&#x000A;There is a crowd gathered here, mourning the loss of your wife.&#x000A;&#x000A;There is a casket at the front of the room.&#x000A;&#x000A;Outside is the parking lot, with your car and some well-deserved tranquility.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B31C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B31C70">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">&#x000A;Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">&#x000A;Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B346E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B346E8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="30">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B34758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B34758">
+    <command xml:space="preserve">look at casket</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">NO</temporary>
+  </item>
+  <item nodeId="node-0x02B33B18">
+    <command xml:space="preserve">go out</command>
+    <result xml:space="preserve">Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Outdoors&#x000A;It's a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.&#x000A;&#x000A;Your Camaro is nearby.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02B339C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B339C8">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">Looks like a good place to get a quick break from today's events. You might try taking a quick REST here.&#x000A;&#x000A;(You are now in the car).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Looks like a good place to get a quick break from today's events. You might try taking a quick REST here.&#x000A;&#x000A;(You are now in the car).&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
