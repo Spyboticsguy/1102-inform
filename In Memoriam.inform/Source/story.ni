@@ -1,8 +1,25 @@
-"In Memoriam" by Loquacious Libriform Computing
+"In Memoriam" by Loquacious Libriform Computing.
+The story genre is "Surreal".
 [By Tristen Allen, Logan Vaupel,  Joe Cantatore, and Brendan Miles.]
+The story description is "Someone has died. How traic and unfortunate."
+The story creation year is 2015.
+[This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-Release along with an interpreter.
+    See <http://www.gnu.org/licenses/> for license details.]
+
+[Cover art used by Creative Commons Attribution-ShareAlike, version 4.0. 
+	Image obtained from https://commons.wikimedia.org/wiki/File:Menyanthes_trifoliata_Spechtensee_01.JPG
+	 by Wikimedia Commons username Uoaei1]
+
+Release along with an interpreter and cover art ("Menyanthes trifoliata").
 
 Use Undo Prevention.
 
