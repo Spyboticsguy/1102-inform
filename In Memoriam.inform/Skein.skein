@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x5e56c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x8201250" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x5e56c0" />
-  <item nodeId="node-0x5e56c0">
+  <activeNode nodeId="node-0x8201250" />
+  <item nodeId="node-0x8201250">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -37,14 +37,14 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>YES</changed>
     <temporary score="276">NO</temporary>
     <children>
-      <child nodeId="node-0x820d630" />
-      <child nodeId="node-0x820d0d0" />
-      <child nodeId="node-0x820d230" />
-      <child nodeId="node-0x820ceb0" />
-      <child nodeId="node-0x5e5710" />
+      <child nodeId="node-0x8225380" />
+      <child nodeId="node-0x8224e10" />
+      <child nodeId="node-0x8224f60" />
+      <child nodeId="node-0x8224bf0" />
+      <child nodeId="node-0x82012a0" />
     </children>
   </item>
-  <item nodeId="node-0x5e5710">
+  <item nodeId="node-0x82012a0">
     <command xml:space="preserve">look at wife</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -56,10 +56,10 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>NO</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x5e5760" />
+      <child nodeId="node-0x8201410" />
     </children>
   </item>
-  <item nodeId="node-0x5e5760">
+  <item nodeId="node-0x8201410">
     <command xml:space="preserve">take wife</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -71,10 +71,10 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>NO</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x5e57b0" />
+      <child nodeId="node-0x8201460" />
     </children>
   </item>
-  <item nodeId="node-0x5e57b0">
+  <item nodeId="node-0x8201460">
     <command xml:space="preserve">take casket</command>
     <result xml:space="preserve">Later.
 
@@ -86,10 +86,10 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>NO</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x5e5800" />
+      <child nodeId="node-0x82014b0" />
     </children>
   </item>
-  <item nodeId="node-0x5e5800">
+  <item nodeId="node-0x82014b0">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">Orante, brown, and very expensive.
 
@@ -105,10 +105,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="23">NO</temporary>
     <children>
-      <child nodeId="node-0x5e5850" />
+      <child nodeId="node-0x8201500" />
     </children>
   </item>
-  <item nodeId="node-0x5e5850">
+  <item nodeId="node-0x8201500">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">Orante, brown, and very expensive.
 
@@ -124,10 +124,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x5e58c0" />
+      <child nodeId="node-0x8201570" />
     </children>
   </item>
-  <item nodeId="node-0x5e58c0">
+  <item nodeId="node-0x8201570">
     <command xml:space="preserve">look at deceased</command>
     <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
 
@@ -139,7 +139,7 @@ In the casket is a deceased woman.
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
   </item>
-  <item nodeId="node-0x820ceb0">
+  <item nodeId="node-0x8224bf0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
@@ -165,10 +165,10 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>YES</changed>
     <temporary score="145">NO</temporary>
     <children>
-      <child nodeId="node-0x820cf00" />
+      <child nodeId="node-0x8224c40" />
     </children>
   </item>
-  <item nodeId="node-0x820cf00">
+  <item nodeId="node-0x8224c40">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">Orante, brown, and very expensive.
 
@@ -184,10 +184,10 @@ In the casket is a deceased woman.
     <changed>NO</changed>
     <temporary score="145">NO</temporary>
     <children>
-      <child nodeId="node-0x820cf50" />
+      <child nodeId="node-0x8224c90" />
     </children>
   </item>
-  <item nodeId="node-0x820cf50">
+  <item nodeId="node-0x8224c90">
     <command xml:space="preserve">look at wife</command>
     <result xml:space="preserve">Beautiful, you&apos;re sure. But you can&apos;t quite bring yourself to look at her.
 
@@ -199,10 +199,10 @@ In the casket is a deceased woman.
     <changed>NO</changed>
     <temporary score="47">NO</temporary>
     <children>
-      <child nodeId="node-0x820cfa0" />
+      <child nodeId="node-0x8224ce0" />
     </children>
   </item>
-  <item nodeId="node-0x820cfa0">
+  <item nodeId="node-0x8224ce0">
     <command xml:space="preserve">take wife</command>
     <result xml:space="preserve">It&apos;s far too late to hold her.
 
@@ -214,10 +214,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x820d010" />
+      <child nodeId="node-0x8224d50" />
     </children>
   </item>
-  <item nodeId="node-0x820d010">
+  <item nodeId="node-0x8224d50">
     <command xml:space="preserve">take casket</command>
     <result xml:space="preserve">Later.
 
@@ -229,10 +229,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x820d140" />
+      <child nodeId="node-0x8224e80" />
     </children>
   </item>
-  <item nodeId="node-0x820d140">
+  <item nodeId="node-0x8224e80">
     <command xml:space="preserve">break casket</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -244,10 +244,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x820d190" />
+      <child nodeId="node-0x8224b90" />
     </children>
   </item>
-  <item nodeId="node-0x820d190">
+  <item nodeId="node-0x8224b90">
     <command xml:space="preserve">attack casket</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -259,10 +259,10 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x820d1e0" />
+      <child nodeId="node-0x8224ef0" />
     </children>
   </item>
-  <item nodeId="node-0x820d1e0">
+  <item nodeId="node-0x8224ef0">
     <command xml:space="preserve">attack wife</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -274,7 +274,7 @@ In the casket is a deceased woman.
     <changed>YES</changed>
     <temporary score="23">NO</temporary>
   </item>
-  <item nodeId="node-0x820d230">
+  <item nodeId="node-0x8224f60">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">Orante, brown, and very expensive.
 
@@ -290,11 +290,11 @@ In the casket is your wife.
     <changed>NO</changed>
     <temporary score="188">NO</temporary>
     <children>
-      <child nodeId="node-0x820d080" />
-      <child nodeId="node-0x820d280" />
+      <child nodeId="node-0x8224dc0" />
+      <child nodeId="node-0x8224fd0" />
     </children>
   </item>
-  <item nodeId="node-0x820d280">
+  <item nodeId="node-0x8224fd0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
@@ -316,10 +316,10 @@ Outside is the parking lot, with your car and some well-deserved tranquility.
     <changed>NO</changed>
     <temporary score="42">NO</temporary>
     <children>
-      <child nodeId="node-0x820d2f0" />
+      <child nodeId="node-0x8225040" />
     </children>
   </item>
-  <item nodeId="node-0x820d2f0">
+  <item nodeId="node-0x8225040">
     <command xml:space="preserve">go outside</command>
     <result xml:space="preserve">
 Outdoors
@@ -339,10 +339,10 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="30">NO</temporary>
     <children>
-      <child nodeId="node-0x820d360" />
+      <child nodeId="node-0x82250b0" />
     </children>
   </item>
-  <item nodeId="node-0x820d360">
+  <item nodeId="node-0x82250b0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Outdoors
 It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
@@ -360,10 +360,10 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="30">NO</temporary>
     <children>
-      <child nodeId="node-0x820d3d0" />
+      <child nodeId="node-0x8225120" />
     </children>
   </item>
-  <item nodeId="node-0x820d3d0">
+  <item nodeId="node-0x8225120">
     <command xml:space="preserve">look at casket</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -375,7 +375,7 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="29">NO</temporary>
   </item>
-  <item nodeId="node-0x820d080">
+  <item nodeId="node-0x8224dc0">
     <command xml:space="preserve">look at wife</command>
     <result xml:space="preserve">You see nothing special about your wife.
 
@@ -384,7 +384,7 @@ Your Camaro is nearby.
     <changed>YES</changed>
     <temporary score="5">NO</temporary>
   </item>
-  <item nodeId="node-0x820d0d0">
+  <item nodeId="node-0x8224e10">
     <command xml:space="preserve">go out</command>
     <result xml:space="preserve">Outdoors
 It&apos;s a lovely day outside. Balmy. Partly cloudy. You can hear the birds singing in the distance, as well as the chatter of those standing near the door.
@@ -402,10 +402,10 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x820d5c0" />
+      <child nodeId="node-0x8225310" />
     </children>
   </item>
-  <item nodeId="node-0x820d5c0">
+  <item nodeId="node-0x8225310">
     <command xml:space="preserve">get in car</command>
     <result xml:space="preserve">Looks like a good place to get a quick break from today&apos;s events. You might try taking a quick REST here.
 
@@ -421,7 +421,7 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
   </item>
-  <item nodeId="node-0x820d630">
+  <item nodeId="node-0x8225380">
     <command xml:space="preserve">ask mysterious figure</command>
     <result xml:space="preserve">What do you want to ask the mysterious figure for?
 
@@ -433,10 +433,10 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="17">NO</temporary>
     <children>
-      <child nodeId="node-0x820d6a0" />
+      <child nodeId="node-0x82253f0" />
     </children>
   </item>
-  <item nodeId="node-0x820d6a0">
+  <item nodeId="node-0x82253f0">
     <command xml:space="preserve">a casket</command>
     <result xml:space="preserve">I don&apos;t know who &quot;mysterious figure&quot; is.
 
@@ -448,10 +448,10 @@ Your Camaro is nearby.
     <changed>NO</changed>
     <temporary score="17">NO</temporary>
     <children>
-      <child nodeId="node-0x820d710" />
+      <child nodeId="node-0x8225460" />
     </children>
   </item>
-  <item nodeId="node-0x820d710">
+  <item nodeId="node-0x8225460">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.
@@ -466,10 +466,10 @@ There is something different about the casket.
     <changed>NO</changed>
     <temporary score="17">NO</temporary>
     <children>
-      <child nodeId="node-0x820d780" />
+      <child nodeId="node-0x82254d0" />
     </children>
   </item>
-  <item nodeId="node-0x820d780">
+  <item nodeId="node-0x82254d0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Jones&apos; Memorial Baptist
 There is a crowd gathered here, mourning the loss of your wife.

@@ -1,7 +1,7 @@
 "In Memoriam" by Loquacious Libriform Computing.
 The story genre is "Surreal".
 [By Tristen Allen, Logan Vaupel,  Joe Cantatore, and Brendan Miles.]
-The story description is "Someone has died. How traic and unfortunate."
+The story description is "Someone has died. How tragic and unfortunate."
 The story creation year is 2015.
 [This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -113,8 +113,8 @@ Check resting:
 		say "What do you think you're doing!?" instead;
 	if the player is not in the car:
 		say "You really should not be sleeping here." instead;
-	if the car is not in outside or the car is not in the garage:
-		say "You don't have the time to be doszing off. You're late!"
+	if the car is not in outdoors or the car is not in the garage:
+		say "You don't have the time to be dozing off. You're late!"
 
 Carry out resting:
 	say "Your mind begins to drift back to memories of you and your wife.";
@@ -248,6 +248,9 @@ Instead of telling the mysterious figure about anything:
 		continue the action.
 
 Instead of exiting while the player is in Jones' Memorial Baptist and the value corresponding to a consequence of "completed" in the Table of Memory is 1:
+	end the story saying "Are you not satisfied? I can't do anything else for you. Unless YOU have some other way to change the outcome... if YOU can go above the story... this is all that's left for you here."
+
+Instead of going while the player is in Jones' Memorial Baptist and the value corresponding to a consequence of "completed" in the Table of Memory is 1:
 	end the story saying "Are you not satisfied? I can't do anything else for you. Unless YOU have some other way to change the outcome... if YOU can go above the story... this is all that's left for you here."
 
 Section 2 - Outside
@@ -416,6 +419,9 @@ Section 2 - Highway
 
 The Highway is a road in Work. "Full of cars. Calming, for once. North of here is your workplace; south is your driveway."
 The highway is north of the driveway.
+
+Instead of going south while the car is in the highway:
+	say "You can't turn around in the middle of the interstate!"
 
 Section 3 - Work
 
