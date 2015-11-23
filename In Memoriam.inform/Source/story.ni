@@ -49,7 +49,7 @@ Topic	Response
 
 [Are you not satisfied?]
 
-The File of Memory is called "dreft".
+The File of Memory is called "recall".
 
 When play begins:
 	if File of Memory exists:
